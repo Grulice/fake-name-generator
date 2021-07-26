@@ -1,0 +1,25 @@
+{
+    "name": "fake-name-generator",
+    "version": "1.0.0",
+    "description": "Heroku demo for Algoritmika Bootcamp",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "heroku-postbuild": "cd client && npm install && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Grulice/fake-name-generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Grulice/fake-name-generator/issues"
+    },
+    "homepage": "https://github.com/Grulice/fake-name-generator#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "faker": "^5.5.3"
+    }
+}
